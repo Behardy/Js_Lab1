@@ -1,3 +1,5 @@
+"use strict";
+
 let userHealth = 40;
 let grantHealth = 10;
 let userwins = 0;
@@ -18,7 +20,7 @@ while (userwins < 3 && grantwins < 1) {
         console.log(`${user} wins.`);
 
     } if (userHealth <= 0) {
-        grantwins++;
+        // grantwins++;
         console.log(`The Almighty Grant wins`);
         break;
 
